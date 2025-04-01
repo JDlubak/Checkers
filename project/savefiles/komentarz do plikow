@@ -1,0 +1,4 @@
+Example Good Save File posiada ręcznie utworzony przykład gry, który można wczytać.
+Example Corrupt Save File posiada 1 błąd - jest to domyślny układ planszy, ale jeden z pionków białego został zamienony na czarną królową, przez co nie można wczytać tego stanu, bo ilość pionków się nie zgadza.
+Obydwa pliki wykorzystywane są do testów.
+testFile natomiast powstał w trakcie testów - próbujemy z jednego stanu zapisać, a potem za pomocą metody odczytu z pliku sprawdzamy, czy się udał zapis
